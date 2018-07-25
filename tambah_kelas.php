@@ -50,7 +50,7 @@ $menus = get_menu();
             <article>
                 <form action="controllers/tambah_kelas_controller.php" method="post" onsubmit="return validateForm()">
                     <div class="form-group">
-                        <label for="nama_kelas">Nama Pelajaran</label>
+                        <label for="nama_kelas">Nama Kelas</label>
                         <input type="text" name="nama_kelas" id="nama_kelas" placeholder="Soekarno - I">
                         <small class="hide">* Isi ini dulu yuk</small>
                     </div>
